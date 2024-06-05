@@ -436,7 +436,7 @@ arr = arr.replaceAll(keys[i], '<span style="color: #C09264;">' + keys[i] + '</sp
 };
 arr = arr.replaceAll("$if", '<span style="color: #C27BD4;">' + "$if" + '</span>');
 arr = arr.replaceAll("$endif", '<span style="color: #C27BD4;">' + "$endif" + '</span>');
-arr = arr.replaceAll("else", '<span style="color: #C27BD4;">' + "$else" + '</span>');
+arr = arr.replaceAll("$else", '<span style="color: #C27BD4;">' + "$else" + '</span>');
 
 arr = arr.replaceAll("[", '<span style="color: #779766;">' + "[" + '</span>');
 arr = arr.replaceAll("]", '<span style="color: #779766;">' + "]" + '</span>');
