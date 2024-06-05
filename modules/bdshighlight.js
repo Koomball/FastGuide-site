@@ -1,5 +1,6 @@
-cb = document.getElementById("bdscript");
-arr = cb.textContent;
+cb = document.getElementsByClassName("bdscript");
+arr = cb[0].textContent
+
 keys = [  "$addButton",
   "$addCmdReactions",
   "$addEmoji",
@@ -429,13 +430,23 @@ keys = [  "$addButton",
   "$year"
 ];
 
+for (b = 0; b < cb.length; b++) {
 for (i = 0; i < keys.length; i++) {
-arr = arr.replaceAll(keys[i], '<span style="color: #73FBFF;">' + keys[i] + '</span>');
+arr = arr.replaceAll(keys[i], '<span style="color: #C09264;">' + keys[i] + '</span>');
 };
-arr = arr.replaceAll("$if", '<span style="color: purple;">' + "$if" + '</span>');
-arr = arr.replaceAll("$endif", '<span style="color: purple;">' + "$endif" + '</span>');
+arr = arr.replaceAll("$if", '<span style="color: #C27BD4;">' + "$if" + '</span>');
+arr = arr.replaceAll("$endif", '<span style="color: #C27BD4;">' + "$endif" + '</span>');
+arr = arr.replaceAll("else", '<span style="color: #C27BD4;">' + "$else" + '</span>');
 
-arr = arr.replaceAll("[", '<span style="color: #F32528;">' + "[" + '</span>');
-arr = arr.replaceAll("]", '<span style="color: #F32528;">' + "]" + '</span>');
+arr = arr.replaceAll("[", '<span style="color: #779766;">' + "[" + '</span>');
+arr = arr.replaceAll("]", '<span style="color: #779766;">' + "]" + '</span>');
+arr = arr.replaceAll("\;/", '<span style="color: #779766;">' + "\;" + '</span>');
 
-cb.innerHTML = arr;
+cb[b].innerHTML = arr; 
+try {
+  arr = cb[b + 1].textContent;
+} catch (error) { console.log("highlight success") };
+};
+
+
+
