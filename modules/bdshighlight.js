@@ -1,6 +1,9 @@
 cb = document.getElementsByClassName("bdscript");
 arr = cb[0].textContent
 
+// BDScript Highlighter by Roxette Menzy Dillon.
+// Discord: .koomball
+
 keys = [  "$addButton",
   "$addCmdReactions",
   "$addEmoji",
@@ -432,12 +435,17 @@ keys = [  "$addButton",
 
 for (b = 0; b < cb.length; b++) {
 for (i = 0; i < keys.length; i++) {
+  // FUNCTIONS
 arr = arr.replaceAll(keys[i], '<span style="color: #C09264;">' + keys[i] + '</span>');
 };
+
+// BLOCKS
 arr = arr.replaceAll("$if", '<span style="color: #C27BD4;">' + "$if" + '</span>');
 arr = arr.replaceAll("$endif", '<span style="color: #C27BD4;">' + "$endif" + '</span>');
 arr = arr.replaceAll("$else", '<span style="color: #C27BD4;">' + "$else" + '</span>');
+arr = arr.replaceAll("$elseif", '<span style="color: #C27BD4;">' + "$elseif" + '</span>');
 
+// SYMBOLS
 arr = arr.replaceAll("[", '<span style="color: #779766;">' + "[" + '</span>');
 arr = arr.replaceAll("]", '<span style="color: #779766;">' + "]" + '</span>');
 arr = arr.replaceAll("\;/", '<span style="color: #779766;">' + "\;" + '</span>');
