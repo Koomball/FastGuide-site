@@ -2,7 +2,10 @@ html,
 body {
   font-family: 'Work Sans', sans-serif;
   margin: 0;
-  background-color: white;
+  background-image: url('https://img.freepik.com/premium-vector/computer-background-vector_889056-106441.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   display: grid;
 }
 
