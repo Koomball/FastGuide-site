@@ -1,5 +1,6 @@
 # Nylon CodeShare Site
 
+Modify dev branch first then merge to bulk build
 ### Note: This is an open source codesharing platform therefore creating a fork of this and didn't crediting us, then it may be a subject to Copyright Issue.
 
 Credits:
