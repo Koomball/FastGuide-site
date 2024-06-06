@@ -84,12 +84,12 @@ description: sell your items. <br>
 
 <strong>Option 1 (Text, Preset Choices)</strong>
 Option Name: item <br>
-Choices:
+<br> Choices:
 | Name | Value |
 | :----: | :-----: |
 | Apples [$5 Each] | apples-5 |
 | Oranges [$10 Each] | oranges-10 |
-
+<br>
 Option values follow the format:
 variableName-sellValue.
 
@@ -100,31 +100,41 @@ Option Name: amount <br>
       <pre><code class="bdscript">
 $nomention
 $textSplit[$message[item];-]
-$c[1]$if[$isNumber[$message[amount]]]
-$c[2]$if[$message[amount]>$getVar[$splitText[1];$authorID]]
+$c[1]
+       $if[$isNumber[$message[amount]]]
+$c[2]
+       $if[$message[amount]>$getVar[$splitText[1];$authorID]]
+       
 $title[Invalid Amount]
 $description[> You only have $getVar[$splitText[1];$authorID] $splitText[1]]
 $footer[TIP: Type all to sell all of the selected item you own.]
-$c[2]$else
+$c[2]
+       $else
+       
 $setVar[$splitText[1];$sub[$getVar[$splitText[1];$authorID];$message[amount]];$authorID]
 $setVar[cash;$calculate[$getVar[cash;$authorID]+($splitText[2]*$message[amount])];$authorID]
 $title[Sale Successfull!]
 $description[> Sold $message[amount] $splitText[1] for $$multi[$message[amount];$splitText[2]]]
 $footer[TIP: Type all to sell all of the selected item you own.]
-$c[2]$endif
-
-$c[1]$elseif[$toLowercase[$message[amount]]==all]
+$c[2]
+       $endif
+$c[1]
+       $elseif[$toLowercase[$message[amount]]==all]
+       
 $var[amount;$getVar[$splitText[1];$authorID]]
 $setVar[$splitText[1];0;$authorID]
 $setVar[cash;$calculate[$getVar[cash;$authorID]+($splitText[2]*$var[amount])];$authorID]
 $title[Sale Successfull!]
 $description[> Sold $var[amount] $splitText[1] for $$multi[$var[amount];$splitText[2]]]
 $footer[TIP: Type all to sell all of the selected item you own.]
-$c[1]$else
+$c[1]
+       $else
+       
 $title[ERROR]
 $description[> You entered a invalid number.]
 $footer[TIP: Type all to sell all of the selected item you own.]
-$c[1]$endif
+$c[1]
+       $endif
 </code></pre>
       </div>
 </div>
