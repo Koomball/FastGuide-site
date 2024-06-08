@@ -6,7 +6,6 @@ Modify dev branch first then merge to bulk build
 # To-Do
 ## Front-End - aditya
 - ❌ Login Button
-
 - ❌ Views on guide card
 - ❌ Favourites on guide card
 - ❌ Guide type tag on guide card
