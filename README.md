@@ -8,8 +8,8 @@ Modify dev branch first then merge to bulk build
 - Accounts
   - ❌ Login Button
   - ❌ Account Page
-   - ❌ Account Posts
-   - ❌ Favourites Page
+    - ❌ Account Posts
+    - ❌ Favourites Page
 
 - Guide Card
  - ❌ Views on guide card
