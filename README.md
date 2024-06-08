@@ -3,7 +3,28 @@
 Modify dev branch first then merge to bulk build
 ### Note: This is an open source codesharing platform therefore creating a fork of this and didn't crediting us, then it may be a subject to Copyright Issue.
 
-Credits:
+# To-Do
+## Front-End - aditya
+❌ Login Button
+
+❌ Views on guide card
+❌ Favourites on guide card
+❌ Guide type tag on guide card
+❌ Guide author on guide card
+❌ Star button on guide card
+
+## Back-End - koom
+❌ Login system
+❌ Sign up system
+❌ Login/Signup with discord
+❌ Login/Signup with google
+❌ Login/Signup with github
+❌ Favourite posts
+❌ Post Views
+❌ Create Post system
+
+
+# Credits:
 - Powered by **Vercel**
 - Developed by **Adityapcgaming & Koomball**
 - Front-end by **Adityapcgaming**
