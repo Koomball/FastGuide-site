@@ -5,23 +5,23 @@ Modify dev branch first then merge to bulk build
 
 # To-Do
 ## Front-End - aditya
-❌ Login Button
+- ❌ Login Button
 
-❌ Views on guide card
-❌ Favourites on guide card
-❌ Guide type tag on guide card
-❌ Guide author on guide card
-❌ Star button on guide card
+- ❌ Views on guide card
+- ❌ Favourites on guide card
+- ❌ Guide type tag on guide card
+- ❌ Guide author on guide card
+- ❌ Star button on guide card
 
 ## Back-End - koom
-❌ Login system
-❌ Sign up system
-❌ Login/Signup with discord
-❌ Login/Signup with google
-❌ Login/Signup with github
-❌ Favourite posts
-❌ Post Views
-❌ Create Post system
+- ❌ Login system
+- ❌ Sign up system
+- ❌ Login/Signup with discord
+- ❌ Login/Signup with google
+- ❌ Login/Signup with github
+- ❌ Favourite posts
+- ❌ Post Views
+- ❌ Create Post system
 
 
 # Credits:
