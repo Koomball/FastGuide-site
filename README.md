@@ -6,10 +6,10 @@ Modify dev branch first then merge to bulk build
 # To-Do
 ## Front-End - aditya
 - Accounts
- - ❌ Login Button
- - ❌ Account Page
-  - ❌ Account Posts
-  - ❌ Favourites Page
+  - ❌ Login Button
+  - ❌ Account Page
+   - ❌ Account Posts
+   - ❌ Favourites Page
 
 - Guide Card
  - ❌ Views on guide card
