@@ -443,6 +443,7 @@ arr = arr.replaceAll("$if", '<span style="color: #C27BD4;">' + "$if" + '</span>'
 arr = arr.replaceAll("$endif", '<span style="color: #C27BD4;">' + "$endif" + '</span>');
 arr = arr.replaceAll("$else", '<span style="color: #C27BD4;">' + "$else" + '</span>');
 arr = arr.replaceAll("$elseif", '<span style="color: #C27BD4;">' + "$elseif" + '</span>');
+arr = arr.replaceAll("if", '<span style="color: #C27BD4;">' + "if" + '</span>');
 
 // SYMBOLS
 arr = arr.replaceAll("[", '<span style="color: #779766;">' + "[" + '</span>');
