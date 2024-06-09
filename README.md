@@ -6,10 +6,15 @@ Modify dev branch first then merge to bulk build
 # To-Do
 ## Front-End - aditya
 - Accounts
-  - ❌ Login Button
+  - ❌ Switch to Top Nav instead of Side Nav
   - ❌ Account Page
     - ❌ Account Posts
     - ❌ Favourites Page
+
+- Main Page
+  - ❌️ Log/Sign Buttons
+  - ❌️ Create Post Button
+  - ❌️ Update Guide Card
 
 - Guide Card
   - ❌ Views on guide card
