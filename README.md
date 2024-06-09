@@ -43,4 +43,3 @@ Modify dev branch first then merge to bulk build
 - Back-end by **Koomball**
 - Icons & Animations by **some online users**
 
-*If you saw your work and we didn't credited you, you can contact us on our discord server.*
