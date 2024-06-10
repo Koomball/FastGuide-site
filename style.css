@@ -62,8 +62,8 @@ a {
 
 .guidecard-grid {
     display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
@@ -122,12 +122,12 @@ a {
 
 .card3 {
   aspect-ratio: 22 / 9;
-  width: 150px;
+  width: 140px;
   background-position: 0% 40%;
   background-size: cover;
   border-radius: 2.5vw;
   flex-direction: column;
-  height: 100px
+  height: 120px
   margin: 1rem;
   padding: 1.5rem;
 }
@@ -176,7 +176,7 @@ a {
 
 .bottom-container > .middle {
   margin: 0;
-  font-size: 12px
+  font-size: 10px;
   line-height: 1.5;
 }
 
