@@ -19,12 +19,13 @@ a {
 }
 
 .twomain {
-  
+  min-height: 100vh;
   padding: 4rem 2rem;
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -53,9 +54,10 @@ a {
 
 .grid {
   display: flex;
-  
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  max-width: 1080px;
+  max-width: 800px;
 }
 
 .card {
@@ -113,13 +115,13 @@ a {
 }
 
 .card3 {
-  
-  width: 120px;
+  aspect-ratio: 22 / 9;
+  width: 35vh;
   background-position: 0% 40%;
   background-size: cover;
   border-radius: 2.5vw;
   flex-direction: column;
-  height: 250px;
+  height: 50vh;
   margin: 1rem;
   padding: 1.5rem;
 }
