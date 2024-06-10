@@ -11,6 +11,18 @@ const guides = [
   ["HTML", "Basic Ticket System", "red"],
   ["HTML", "Basic Ticket System", "red"],
   ["HTML", "Basic Ticket System", "red"],
+  ["BDScript", "Basic Ticket System", "blue"],
+  ["BDScript", "Basic Ticket System", "blue"],
+  ["BDScript", "Basic Ticket System", "blue"],
+  ["BDScript", "Basic Ticket System", "blue"],
+  ["Forgescript", "Basic Ticket System", "purple"],
+  ["Forgescript", "Basic Ticket System", "purple"],
+  ["Forgescript", "Basic Ticket System", "purple"],
+  ["Forgescript", "Basic Ticket System", "purple"],
+  ["HTML", "Basic Ticket System", "red"],
+  ["HTML", "Basic Ticket System", "red"],
+  ["HTML", "Basic Ticket System", "red"],
+  ["HTML", "Basic Ticket System", "red"],
   ];
   
 a = document.getElementById("guidecards")
