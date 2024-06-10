@@ -62,7 +62,7 @@ a {
 
 .guidecard-grid {
     display: grid;
-    gap: 10px;
+    gap: 25px;
     grid-template-columns: repeat(3, 1fr);
 }
 
