@@ -123,7 +123,7 @@ a {
 .card3 {
   aspect-ratio: 22 / 9;
   width: 100px;
-  background-position: 0% 40%;
+  
   background-size: cover;
   border-radius: 2.5vw;
   flex-direction: column;
