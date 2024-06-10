@@ -1,0 +1,6 @@
+#Guide Cards.
+#Test for ntbl, Nylons Table Language.
+
+@declare.table[guideTitles]
+num | bdfd               | fs                 |
+1   | basic sell command | basic sell command |
