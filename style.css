@@ -62,7 +62,7 @@ a {
 
 .guidecard-grid {
     display: grid;
-    gap: 30px;
+    gap: 45px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -903,7 +903,7 @@ h4, .h4 {font-size: 1.2em;}
   text-decoration: none !important;
   text-transform: none;
   border: 0 none;
-  border-radius: 36px;
+  border-radius: 22px;
   font-size: 13px;
   font-weight: 500;
   line-height: 1.3;
