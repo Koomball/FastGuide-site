@@ -180,6 +180,10 @@ a {
   line-height: 1.5;
 }
 
+.bottom-container > .bottom {
+  font-size: 10px;
+}
+
 .Lol {
   padding: 0.5em;
   color: #fff;
