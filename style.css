@@ -68,16 +68,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.guidecard-grid-2 {
-    width: 100%; 
-    height: 500px; 
-    margin-right: 5px; 
-    margin: 5px;
-    display: grid;
-    gap: 45px;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .card {
   margin: 1rem;
   padding: 1.5rem;
