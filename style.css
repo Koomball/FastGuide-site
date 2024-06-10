@@ -60,6 +60,10 @@ a {
   max-width: 800px;
 }
 
+.guidecard-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
