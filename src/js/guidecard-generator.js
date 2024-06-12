@@ -1,7 +1,8 @@
 const guides = [
   ["BDScript", "Variables with Json", "blue", "tag/bdfd/posts/variables-with-json"],
-  ["Forgescript", "Basic Ticket System", "purple", "#"],
-  ["HTML", "Basic Ticket System", "red", "#"],
+  ["BDScript", "Basic Ticket System", "blue", "#"],
+  ["BDScript", "Basic Sell Command", "blue", "#"],
+  ["BDScript", "Basic Buy Command", "blue", "#"],
   ];
   
 a = document.getElementById("guidecards")
