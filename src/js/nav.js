@@ -1,0 +1,5 @@
+const nav = "<a href=\"#\" class=\"logotype\">NYLON<span>CODES</span></a><div class=\"overflow-container\"><ul class=\"menu-dropdown\"><li><a href=\"/tag//bdfd/\">BDFD</a><span class=\"icon\"><img src=\"logoImg/bdfd.png\" width=\"20\" height=\"20\"></span></li><li><a href=\"#\">ForgeScript</a><span class=\"icon\"><img src=\"logoImg/forgescript.png\" width=\"20\" height=\"20\"></span></li><li><a href=\"#\">Discord.js</a><span class=\"icon\"><img src=\"logoImg/djs.png\" width=\"20\" height=\"20\"></span></li><li><a href=\"#\">HTML/CSS</a><span class=\"icon\"><img src=\"logoImg/htmlcss.png\" width="\20\" height=\"20\"></span></li><li><a href=\"#\">Pixel Art</a><span class=\"icon\"><i class=\"fa fa-user-secret\"></i></span></li></ul></div>";
+
+a = document.getElementById("nav")
+
+a.innerHTML = nav;
