@@ -856,6 +856,18 @@ h4, .h4 {font-size: 1.2em;}
   align-items: center;
 }
 
+.nav2 {
+  width: 700px;
+  height: 40px;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(54,54,54,0.2);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .button.-blue {
   color: #FFFFFF;
   background: #416dea;
