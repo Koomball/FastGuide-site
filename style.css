@@ -61,7 +61,7 @@ a {
 .guidecard-grid {
     width: 100%; 
     height: 500px; 
-    margin: 5px;
+    margin-left: 1px;
     display: grid;
     gap: 35px;
     grid-template-columns: repeat(2, 1fr);
