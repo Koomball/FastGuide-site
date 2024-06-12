@@ -840,6 +840,21 @@ h4, .h4 {font-size: 1.2em;}
   align-items: center;
 }
 
+.nav3 {
+  width: 50px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(54,54,54,0.2);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .nav_innerContainer {
    margin-right: 30px;
     width: auto;
