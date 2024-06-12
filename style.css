@@ -866,6 +866,7 @@ h4, .h4 {font-size: 1.2em;}
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .button.-blue {
