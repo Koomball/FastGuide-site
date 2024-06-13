@@ -19,7 +19,7 @@ Modify dev branch first then merge to bulk build
   - ✅️ Update Guide Card
   - ✅️ Remove Side Nav and add Middle Nav
 
-- Guide Card (in my dev production done; now imma push to main)
+- Guide Card (pushing it next week some error occurred :("
   - ✅️ Views on guide card
   - ✅️ Favourites on guide card
   - ✅️ Guide type tag on guide card
