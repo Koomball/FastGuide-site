@@ -55,7 +55,7 @@ a {
     height: 500px; 
     margin: 1px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .card3 {
@@ -65,7 +65,6 @@ a {
   border-radius: 2.5vw;
   flex-direction: column;
   height: 180px;
-  margin: 1rem;
   padding: 1.5rem;
 }
 
@@ -122,12 +121,11 @@ a {
 }
 
 .Lol {
-  padding: 0.5em;
   color: #fff;
   display: inline-flex;
   align-items: center;
-  margin: 1em;
 }
+
 .Lol::before,
 .Lol::before {
   content: '';
@@ -155,94 +153,6 @@ a {
 .Lol--purple::before,
 .Lol--purple::before {
   background-color: purple;
-}
-
-
-@media only screen and (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-    margin-left: -0.1vw;
-  }
-
-  .top-container > h3 {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 5vw;
-  }
-
-  .card3 {
-    width: 100%;
-    margin-left: -0.1vw;
-  }
-}
-
-/* Media Queries */
-
-@media only screen and (min-width: 601px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-    margin-left: -0.1vw;
-  }
-
-  .top-container > h3 {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 3.5vw;
-  }
-
-  .card3 {
-    width: 100%;
-    margin-left: -0.1vw;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-    margin-left: -0.1vw;
-  }
-
-  .top-container > h3 {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.5vw;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-    margin-left: -0.1vw;
-  }
-
-  .top-container > h3 {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.5vw;
-  }
-
-  .card3 {
-    width: 100%;
-    margin-left: -0.1vw;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-    margin-left: -0.1vw;
-  }
-
-  .top-container > h3 {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.5vw;
-  }
-
-  .card3 {
-    width: 70%;
-    margin-left: -0.1vw;
-  }
 }
 
 /* Layout */
@@ -592,18 +502,6 @@ label.hamburger {
 
 /* Resposive Typography */
 
-body,
-button,
-input,
-select,
-optgroup,
-textarea {
-  color: black;
-  font-size: 1em;
-  line-height: 1.5;
-  font-weight: 300;
-}
-
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-weight: 800;
@@ -748,46 +646,6 @@ h4, .h4 {font-size: 1.2em;}
 
 
 
-/* Medium Screen Typography - Scale: 1.333 Perfect Fourth (thanks http://type-scale.com/)  */
-
-@media screen and (min-width: 42em) {
-
-  h1, .h1 { letter-spacing: -2px; }
-
-  h1, .h1 {font-size: 3.157em;}
-
-  h2, .h2 {font-size: 2.369em;}
-
-  h3, .h3 {font-size: 1.777em;}
-
-  h4, .h4 {font-size: 1.333em;}
-
-  p { font-size:1.0625em; }
-
-  p.intro { font-size:1.3em; }
-
-}
-
-
-/* Large Screen Typography  - Scale: 1.414 Augmented Fourth (thanks http://type-scale.com/)  */
-
-@media screen and (min-width: 72em) {
-
-  h1 { letter-spacing: -3px; }
-
-  h1, .h1 { margin-bottom: 0.35em; font-size: 3.998em; }
-
-  h2, .h2  { font-size: 2.827em; }
-
-  h3, .h3 { font-size: 1.999em; }
-
-  h4, .h4 { font-size: 1.414em; }
-
-  p { font-size:1.125em; }
-
-  p.intro { font-size:1.4em; }
-
-}
 
 .h3 {
   color: rgba(255, 255, 255, 0.5);
@@ -864,10 +722,16 @@ h4, .h4 {font-size: 1.2em;}
 .nav_menu_list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  width: 100%;
+}
+
+.nav_menu_list_tabs {
+  list-style: none;
+  padding: 0;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: center;
 }
 
 .nav2 {
@@ -906,8 +770,9 @@ h4, .h4 {font-size: 1.2em;}
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
   flex: 0 0 160px;
   box-shadow: 2px 5px 10px #e4e4e4;
 }
