@@ -14,17 +14,13 @@ Modify dev branch first then merge to bulk build
     - ❌ Favourites Page
 
 - Main Page
-  - ✅️ Log/Sign Buttons
-  - ✅️ Create Post Button
-  - ✅️ Update Guide Card
-  - ✅️ Remove Side Nav and add Middle Nav
+  - ❌ Center language tag on guide card instead of having it left.
 
 - Guide Card (pushing it next week some error occurred :("
-  - ✅️ Views on guide card
-  - ✅️ Favourites on guide card
-  - ✅️ Guide type tag on guide card
-  - ✅️ Guide author on guide card
-  - ✅️ Star button on guide card
+  - ❌ Views on guide card
+  - ❌ Favourites on guide card
+  - ❌ Guide type tag on guide card
+  - ❌ Star button on guide card
  
 ## Back-End - koom
 - Accounts
