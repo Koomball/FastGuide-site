@@ -13,6 +13,12 @@ body {
   background: #111;
   width: 100%;
   overflow: hidden;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  background-image: url('/logoImg/cardbg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .ring {
   position: relative;
