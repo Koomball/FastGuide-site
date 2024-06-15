@@ -8,7 +8,7 @@ Modify dev branch first then merge to bulk build
 
 ## Front-End - aditya
 - Accounts
-  - ✅️ Switch to Top Nav instead of Side Nav
+  - [RIP] ~~Switch to Top Nav instead of Side Nav~~ - not anymore frr
   - ❌️ Account Page
     - ❌ Account Posts
     - ❌ Favourites Page
