@@ -17,38 +17,6 @@
      crossorigin="anonymous"></script>
  </head>
  <body>
-   <div class="primary-nav">
-
-  <button href="#" class="hamburger open-panel nav-toggle">
-<span class="screen-reader-text">Menu</span>
-</button>
-
-  <nav role="navigation" class="menu">
-
-    <a href="#" class="logotype">NYLON<span>CODES</span></a>
-
-    <div class="overflow-container">
-
-      <ul class="menu-dropdown">
-
-        <div class="cb"><li><a href="#">BDFD</a><span class="icon"><img src="/logoImg/bdfd.png" width="20" height="20"></span></li></div>
-
-        <li><a href="#">ForgeScript</a><span class="icon"><img src="/logoImg/forgescript.png" width="20" height="20"></span></li>
-
-        <li><a href="#">Discord.js</a><span class="icon"><img src="/logoImg/djs.png" width="20" height="20"></span></li>
-
-        <li><a href="#">HTML/CSS</a><span class="icon"><img src="/logoImg/htmlcss.png" width="20" height="20"></span></li>
-        
-        <li><a href="#">Pixel Art</a><span class="icon"><i class="fa fa-user-secret"></i></span></li>
-
-      </ul>
-
-    </div>
-
-  </nav>
-
-</div>
-   
 <div class="new-wrapper">
   
   <div id="main">
@@ -67,24 +35,33 @@
             </span>
             <p><strong>Koomball</strong></p>
           </div>
-          <p class="intro">Lorem Ipsum 2 <strong>"Lorem Ipsum 3"</strong></p>
+          <p class="intro">Bot Designer for Discord is an excellent app but one issue you may encounter making your bot is the variable limit, this guide will introduce you to using JSON with variables to be able to save yourself a massive amount of variables.</p>
         </div>
       </div>
-    
-    <hr>
-    
-      <p class="intro">Bot Designer for Discord is an excellent app but one issue you may encounter making your bot is the variable limit, this guide will introduce you to using JSON with variables to be able to save yourself a massive amount of variables.
+<br><br><br>
+<p>This guide will explain how to setup JSON variables, update users variables, setup an economy system and a levels system + a little extra. I hope its easy to understand and that this guide helps you on your bot developing journey. <br><br>
+  The first step to using Json in any way with BDSript2 is with $jsonParse[] this Function takes one input which is your JSON Code. But do not worry for you will not need to code any JSON while using this guide.
+  
+  in this guide we will be storing our JSON code in variables. which would look like this.
+   </p>     
+<pre><code class="bdscript">$jsonParse[$getVar[VARNAME;$authorID]]
+</code></pre>
+      
+      <p>For example if we have a variable called items and in it we have stored apples, oranges and pears then $getVar[items;$authorID]] would input the json string for these items into $jsonParse allowing us to modify them as we please with $jsonSetString.</p>
+      
+      <strong>$jsonSetString[string;value]</strong>
+      <p>$jsonSetString will be the Function you use most in these examples and allows you to modify your values with no JSON knowledge at all! for example in the code shown below we will create a variable in the app called items set the value of this variable to {} by default for now. We will now add apples, oranges and pears and how many of each item the user has with the code shown below.
+        (Slash Command - /test)</p>
+<pre><code class="bdscript">$nomention
+$jsonParse[$getVar[items;$authorID]]
+$jsonSetString[apples;1]
+$jsonSetString[oranges;2]
+$jsonSetString[pears;3]
+$setVar[items;$jsonStringify;$authorID]
+  variable set
+</code></pre>
 
-This guide will explain how to setup JSON variables, update users variables, setup an economy system and a levels system + a little extra. I hope its easy to understand and that this guide helps you on your bot developing journey. <br><br>
-The first step to using Json in any way with BDSript2 is with $jsonParse[] this Function takes one input which is your JSON Code. But do not worry for you will not need to code any JSON while using this guide.
-
-in this guide we will be storing our JSON code in variables. which would look like this.</strong>
-      
-      <pre><code class="bdscript">$jsonParse[$getVar[VARNAME;$authorID</code></pre>
-      
-      <p>text words other</p>
-      
-       <pre><code class="bdscript">$authorID</code></pre>
+       <p>text words other</p>
       </div>
   </p>
 </div>
