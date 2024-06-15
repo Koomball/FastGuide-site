@@ -1,7 +1,5 @@
 # Nylon CodeShare Site
 
-Modify dev branch first then merge to bulk build
-
 ### Note: This was an open source codesharing platform therefore creating a fork of this and didn't crediting us, then it may be a subject to Copyright Issue or Skill Issue.
 
 # To-Do List:
