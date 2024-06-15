@@ -447,7 +447,7 @@ arr = arr.replaceAll("$elseif", '<span style="color: #C27BD4;">' + "$elseif" + '
 // SYMBOLS
 arr = arr.replaceAll("[", '<span style="color: #779766;">' + "[" + '</span>');
 arr = arr.replaceAll("]", '<span style="color: #779766;">' + "]" + '</span>');
-arr = arr.replaceAll("\;", '<span style="color: #779766;">' + ";" + '</span>');
+arr = arr.replaceAll("\;", '<span style="color: #779766;">' + "\;" + '</span>');
 
 cb[b].innerHTML = arr; 
 try {
