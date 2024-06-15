@@ -52,7 +52,8 @@
       <strong>$jsonSetString[string;value]</strong>
       <p>$jsonSetString will be the Function you use most in these examples and allows you to modify your values with no JSON knowledge at all! for example in the code shown below we will create a variable in the app called items set the value of this variable to {} by default for now. We will now add apples, oranges and pears and how many of each item the user has with the code shown below.
         (Slash Command - /test)</p>
-<pre><code class="bdscript">$nomention
+<pre><div>Slash Command<br>/test</div>
+<code class="bdscript">$nomention
 $jsonParse[$getVar[items;$authorID]]
 $jsonSetString[apples;1]
 $jsonSetString[oranges;2]
@@ -60,8 +61,22 @@ $jsonSetString[pears;3]
 $setVar[items;$jsonStringify;$authorID]
   variable set
 </code></pre>
+<p>We can also add more arguments before the value to make more complex arrays, in this example we sill still use oranges, apples and pears but we will expand them to include amount (how many the user has) and discovered (if the user has collected the item before). This code below will set apples;amount = 1, oranges;amount = 1, pears;amount = 0 and set apples;discovered = true, oranges;discovered =true, pears;discovered = false</p>
+<pre><div>Slash Command<br>/test</div>
+<code class="bdscript">$nomention
+$jsonParse[$getVar[items;$authorID]]
+$jsonSetString[apples;amount;1]
+$jsonSetString[apples;discovered;true]
+  
+$jsonSetString[oranges;amount;1]
+$jsonSetString[oranges;discovered;true]
+  
+$jsonSetString[pears;amount;0]
+$jsonSetString[pears;discovered;false]
 
-       <p>text words other</p>
+$setVar[items;$jsonStringify;$authorID]  
+  variable set
+</code></pre>
       </div>
   </p>
 </div>
